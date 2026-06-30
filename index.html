@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Manohar Ali | Data Scientist & ML Engineer</title>
-  <meta name="description" content="Portfolio of Manohar Ali, a Data Scientist and Machine Learning Engineer specializing in ML, NLP, computer vision, and scalable AI systems.">
+  <title>Manohar Ali Portfolio | Data Scientist & ML Engineer</title>
+  <meta name="description" content="Professional portfolio of Manohar Ali, Data Scientist and Machine Learning Engineer specializing in ML, NLP, computer vision, RAG, and production AI systems.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top">Manohar Ali</a>
+    <a class="brand" href="#top" aria-label="Manohar Ali portfolio home">
+      <span class="brand-mark">MA</span>
+      <span>Manohar Ali</span>
+    </a>
     <nav aria-label="Primary navigation">
-      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#work">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
@@ -22,40 +26,63 @@
   </header>
 
   <main id="top">
-    <section class="hero" aria-label="Introduction">
-      <div class="hero-bg" role="img" aria-label="Abstract machine learning dashboard visual"></div>
+    <section class="hero" aria-label="Portfolio introduction">
+      <div class="hero-bg" role="img" aria-label="Machine learning and analytics portfolio visual"></div>
       <div class="hero-overlay"></div>
-      <div class="hero-content">
-        <p class="eyebrow">Data Scientist & Machine Learning Engineer</p>
-        <h1>Building production AI systems from research to deployment.</h1>
-        <p class="hero-copy">
-          I engineer machine learning, deep learning, NLP, and computer vision solutions that move from experiments into reliable products.
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="mailto:manoharaali455@gmail.com">Email Me</a>
-          <a class="btn secondary" href="https://www.linkedin.com/in/manohar-ali" target="_blank" rel="noreferrer">LinkedIn</a>
+
+      <div class="hero-grid">
+        <div class="hero-copy-block">
+          <p class="portfolio-label">Personal Portfolio</p>
+          <h1>Manohar Ali</h1>
+          <p class="hero-role">Data Scientist & Machine Learning Engineer</p>
+          <p class="hero-copy">
+            I build production-ready AI systems across machine learning, NLP, computer vision, RAG, and scalable model deployment.
+          </p>
+          <div class="hero-actions" aria-label="Primary portfolio actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="#work">See Experience</a>
+            <a class="btn ghost" href="mailto:manoharaali455@gmail.com">Hire / Contact</a>
+          </div>
         </div>
+
+        <aside class="hero-profile" aria-label="Manohar Ali profile summary">
+          <figure class="hero-photo">
+            <img src="assets/manohar-profile.png" alt="Manohar Ali portrait">
+          </figure>
+          <div class="profile-name">Manohar Ali</div>
+          <div class="profile-title">Associate Data Scientist</div>
+          <div class="profile-status">Available for AI/ML roles and freelance projects</div>
+          <div class="profile-links">
+            <a href="mailto:manoharaali455@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/manohar-ali" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </aside>
       </div>
-      <div class="hero-stats" aria-label="Career highlights">
+
+      <div class="hero-stats" aria-label="Portfolio highlights">
         <div>
           <strong>97%</strong>
-          <span>model accuracy delivered</span>
+          <span>ML model accuracy delivered</span>
         </div>
         <div>
           <strong>100K+</strong>
-          <span>daily users served</span>
+          <span>daily users served by recommendation systems</span>
         </div>
         <div>
           <strong>10K+</strong>
-          <span>videos processed daily</span>
+          <span>videos processed per day in analytics pipelines</span>
+        </div>
+        <div>
+          <strong>25%</strong>
+          <span>engagement improvement from recommendations</span>
         </div>
       </div>
     </section>
 
-    <section class="section intro-section">
+    <section class="section intro-section" id="about">
       <div class="section-heading">
-        <p class="eyebrow">Profile</p>
-        <h2>AI engineer focused on measurable product impact.</h2>
+        <p class="eyebrow">About This Portfolio</p>
+        <h2>End-to-end AI work, from research notebooks to deployed systems.</h2>
       </div>
       <div class="profile-panel">
         <figure class="profile-photo">
@@ -69,15 +96,40 @@
             <span>Lahore, Pakistan</span>
             <span>Production ML</span>
             <span>NLP & Computer Vision</span>
+            <span>Docker & AWS</span>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section focus-section" aria-label="What I build">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Portfolio Focus</p>
+        <h2>What I can build for teams</h2>
+      </div>
+      <div class="focus-grid">
+        <article class="focus-item">
+          <span>01</span>
+          <h3>Production ML Systems</h3>
+          <p>Classification, fraud detection, recommendation engines, moderation services, and model APIs built for real users.</p>
+        </article>
+        <article class="focus-item">
+          <span>02</span>
+          <h3>NLP & LLM Workflows</h3>
+          <p>Transformers, sentiment analysis, RAG support tools, keyword extraction, captioning, and content intelligence pipelines.</p>
+        </article>
+        <article class="focus-item">
+          <span>03</span>
+          <h3>Computer Vision</h3>
+          <p>Document verification, deepfake detection, OCR, object detection, image processing, and satellite imagery modeling.</p>
+        </article>
       </div>
     </section>
 
     <section class="section" id="work">
       <div class="section-heading">
         <p class="eyebrow">Experience</p>
-        <h2>Selected work experience</h2>
+        <h2>Professional AI and data science work</h2>
       </div>
 
       <div class="timeline">
@@ -88,8 +140,8 @@
             <p class="company">Walee Technologies PVT LTD</p>
             <ul>
               <li>Architected and deployed a content recommendation engine serving 100K+ daily users, improving engagement by 25%.</li>
-              <li>Engineered an AI-driven content moderation system with 97% accuracy for vulgarity, harassment, and hate speech detection.</li>
-              <li>Implemented a video analytics pipeline processing 10K+ videos per day with multilingual OCR, automated captioning, and LLM-based keyword extraction.</li>
+              <li>Engineered an AI-driven moderation system with 97% accuracy for vulgarity, harassment, and hate speech detection.</li>
+              <li>Implemented a video analytics pipeline processing 10K+ videos per day with multilingual OCR, automated captioning, and LLM keyword extraction.</li>
               <li>Optimized ML workflows with Docker and AWS for scalable, highly available model deployment.</li>
             </ul>
           </div>
@@ -104,7 +156,7 @@
               <li>Delivered 97% accurate ML classification models for document verification fraud detection and deepfake detection.</li>
               <li>Reduced manual review time by 40% through production-ready AI services.</li>
               <li>Engineered a RAG-based tech support automation tool and APIs for model integration.</li>
-              <li>Used data analysis, statistical modeling, and A/B testing to validate production improvements.</li>
+              <li>Used data analysis, statistical modeling, and A/B testing to validate improvements before release.</li>
             </ul>
           </div>
         </article>
@@ -113,45 +165,39 @@
 
     <section class="section projects-section" id="projects">
       <div class="section-heading">
-        <p class="eyebrow">Projects</p>
-        <h2>Applied machine learning projects</h2>
+        <p class="eyebrow">Featured Projects</p>
+        <h2>Projects that show the portfolio clearly</h2>
       </div>
 
       <div class="project-grid">
-        <article class="project-card">
-          <div class="project-kicker">Remote Sensing Â· Deep Learning Â· Web App</div>
+        <article class="project-card highlight-card">
+          <div class="project-kicker">Remote Sensing | Deep Learning | Web App</div>
           <h3>Poverty Assessment Using Satellite Imagery</h3>
-          <p>
-            Predictive model for poverty estimation using socioeconomic indicators and remote sensing data, achieving 92% accuracy.
-          </p>
+          <p>Predictive model for poverty estimation using socioeconomic indicators and remote sensing data, achieving 92% accuracy.</p>
           <ul>
             <li>Optimized ResNet50 with a Gated-Attention Feature Fusion Module.</li>
-            <li>Integrated ML outputs into a web application for data-driven resource allocation.</li>
+            <li>Integrated ML outputs into a web application for resource allocation.</li>
             <li>Published related research at ICDECT 2024.</li>
           </ul>
-          <a href="#" aria-label="Add GitHub link for Poverty Assessment project">Add GitHub link</a>
+          <a href="#contact" aria-label="Contact Manohar for Poverty Assessment project details">Request project details</a>
         </article>
 
         <article class="project-card">
-          <div class="project-kicker">NLP Â· Transformers Â· Classification</div>
+          <div class="project-kicker">NLP | Transformers | Classification</div>
           <h3>Sentiment Analysis</h3>
-          <p>
-            Fine-tuned RoBERTa and DistilBERT for sentiment classification on IMDb data, reaching 95% validation accuracy.
-          </p>
+          <p>Fine-tuned RoBERTa and DistilBERT for sentiment classification on IMDb data, reaching 95% validation accuracy.</p>
           <ul>
-            <li>Built preprocessing and evaluation pipelines for robust model comparison.</li>
-            <li>Used transformer-based fine-tuning for high-quality text classification.</li>
+            <li>Built preprocessing and evaluation pipelines for robust comparison.</li>
+            <li>Used transformer-based fine-tuning for text classification.</li>
             <li>Prepared the workflow for reproducible experimentation.</li>
           </ul>
-          <a href="#" aria-label="Add GitHub link for Sentiment Analysis project">Add GitHub link</a>
+          <a href="#contact" aria-label="Contact Manohar for Sentiment Analysis project details">Request project details</a>
         </article>
 
         <article class="project-card featured-project">
-          <div class="project-kicker">Production AI Â· NLP Â· MLOps</div>
+          <div class="project-kicker">Production AI | NLP | MLOps</div>
           <h3>Content Moderation & Recommendation Systems</h3>
-          <p>
-            Production systems for recommendation, moderation, and content analytics at scale, combining ML models with deployment-focused engineering.
-          </p>
+          <p>Production systems for recommendation, moderation, and content analytics at scale, combining ML models with deployment-focused engineering.</p>
           <ul>
             <li>97% moderation accuracy for unsafe content detection.</li>
             <li>25% user engagement improvement through recommendations.</li>
@@ -163,8 +209,8 @@
 
     <section class="section split-section" id="skills">
       <div class="section-heading">
-        <p class="eyebrow">Capabilities</p>
-        <h2>Technical strengths</h2>
+        <p class="eyebrow">Skills</p>
+        <h2>Technical stack behind the work</h2>
       </div>
 
       <div class="skills-layout">
@@ -208,7 +254,7 @@
       <div class="credential">
         <p class="eyebrow">Education</p>
         <h2>B.S. in Data Science</h2>
-        <p>The GIFT University Â· Sep 2020 - Sep 2024</p>
+        <p>The GIFT University | Sep 2020 - Sep 2024</p>
       </div>
       <div class="credential">
         <p class="eyebrow">Publication</p>
@@ -220,7 +266,7 @@
     <section class="section contact-section" id="contact">
       <div>
         <p class="eyebrow">Contact</p>
-        <h2>Letâ€™s build useful AI systems.</h2>
+        <h2>Let's discuss an AI, ML, or data science project.</h2>
       </div>
       <div class="contact-links">
         <a href="mailto:manoharaali455@gmail.com">manoharaali455@gmail.com</a>
@@ -232,4 +278,3 @@
   </main>
 </body>
 </html>
-
